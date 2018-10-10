@@ -17,8 +17,11 @@ text-align:right;
   width: 600px;
   height:250px;
   display: block;
-  margin:30 0 0 300;
-  /* border:200px; */
+  /* margin:0 auto; Manera de centrar*/
+  margin: 50px auto 25px auto;
+  /* margin top:400px; */
+
+
 }
 #specialHeader
 {
@@ -32,6 +35,11 @@ text-align:right;
 }
 #iconSectionMicro
 {
-  width:35px;
-  height:35px;
+  width:30px;
+  height:25px;
+}
+#form
+{
+  width:650px;
+  height:25px;
 }
