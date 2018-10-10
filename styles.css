@@ -1,0 +1,37 @@
+.header
+{
+text-align:right;
+}
+.section
+{
+  text-align: center;
+}
+
+.imagesHeader
+{
+  width: 22px;
+  height:22px;
+}
+.doodle
+{
+  width: 600px;
+  height:250px;
+  display: block;
+  margin:30 0 0 300;
+  /* border:200px; */
+}
+#specialHeader
+{
+  width: 35px;
+  height:35px;
+}
+
+#sectionSerch
+{
+  display: inline-block;
+}
+#iconSectionMicro
+{
+  width:35px;
+  height:35px;
+}
