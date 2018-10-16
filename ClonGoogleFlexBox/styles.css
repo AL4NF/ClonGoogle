@@ -1,9 +1,9 @@
 header
 {
-  text-align:right;
-  vertical-align:middle;
-
+  display:flex;
+  justify-content:flex-end;
 }
+
 header a
 {
   font-style: courier;
@@ -19,21 +19,22 @@ header img
 {
   width: 22px;
   height:22px;
-  padding: 3px;
-  margin: -8px auto -6px auto
+  margin: 1px 0 0 10px;
+  /* padding: 3px; */
 }
 
 section
 {
-  text-align: center;
   margin-top: 120px;
-}
+  display:flex;
+  align-items: center;
+  flex-direction:column;
 
+}
 .doodle
 {
   width: 600px;
 }
-
 .sectionSerch
 {
   border: 1px solid lightgray;
@@ -41,7 +42,7 @@ section
   box-shadow: 1px 7px 10px -4px lightgrey;
   height: 40px;
   display: block;
-  margin: 30px auto;
+  margin: 15px auto;
   text-align: left;
   width: 600px;
 }
@@ -50,7 +51,7 @@ section
   border: none;
   font-size: 16px;
   height: 90%;
-  margin-left: 10px;
+  /* margin-left: 10px; */
   width: 90%;
 }
 .sectionSerch input:focus {
@@ -81,64 +82,53 @@ search-button {
   background-color: #E9E5E4;
   border: 1px solid transparent;
   margin-bottom: 40px;
+  font-size: 12px;
   font-weight: bold;
   border-radius: 4px;
   color:gray;
-  padding: 10px 20px;
+  padding: 12px 30px;
+  margin: 4px -129px 40px 131px;
 }
 .buttonSerch:hover {
   color: black;
   border-color: #4c4b4b;
 }
 
-
-
-
-
-
 footer
 {
-  background-color: #f2f2f2;
+  display: inline-block;
+  font-style: courier;
+  font-size: 19px;  background-color: #f2f2f2;
   position: absolute;
-
   bottom: 0;
   right: 0;
   left: 0;
 }
-footer .footer-location
+footer a
 {
-  /* border-bottom: 1px solid gray; */
-  padding: 5px;
+  color: black;
+  text-decoration: none;
 }
-footer .footer-links
+footer a:hover {
+  text-decoration: underline;
+}
+.flex
 {
-  padding: 15px;
+  display: flex;
+  justify-content:space-between;
 }
-.footer-links div
+
+.right
 {
   display: inline-block;
 }
-.footer-links div:last-child
+.left
 {
-  float: right;
+  display: inline-block;
 }
-
-.footer-links a {
-  color: black;
-  text-decoration: none;
-  margin: 0 10px;
-}
-
 #specialHeader
 {
   width: 30px;
   height:30px;
-  margin: -8px auto -6px auto
-
-}
-
-#form
-{
-  width:549px;
-  height:37px;
+  margin: -5px 0 5px 5px;
 }
